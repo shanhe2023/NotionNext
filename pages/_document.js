@@ -40,7 +40,7 @@ class MyDocument extends Document {
           <script>
             document.oncopy = function(event) {
               event.preventDefault();
-              window.alert('抱歉，这个内容暂时不能复制');
+              window.alert('抱歉，这个内容不能复制');
               return false;
             };
           </script>
